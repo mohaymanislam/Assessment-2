@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* --------------- start ------------------- */
+.heading{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 140px;
+}
+.blog-1{
+    width: 600px;
+    /* height: 600px; */
+    background-color: white;
+    font-size: 20px;
+    padding-left: 15px;
+
+}
+.heading-1{
+    font-size: 60px;
+}
+.ankr a{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+.blog-2{
+    background-color: white;
+    width: 600px;
+    /* height: 500px; */
+}
+/* ------------ mane ------*/
+
+
+hr{
+    width: 1400px;
+    color: gray;
+}
+
+.popular{
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.blog{
+    width: 305px;
+    height: 450px;
+    border:rgb(212, 206, 206) solid 2px;
+    border-radius: 10px;
+    padding: 
+    10px;
+   margin: 15px;
+}
+
+.icon{
+    display: flex;
+    color: goldenrod;
+    font-size: 10px;
+
+}
+
+.wordwide{
+    color: gray;
+    font-size: 15px;
+}
+
+/*-------------- footer -----------------*/
+.footer{
+    /* width: 1500px; */
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.fab{
+    padding: 10px;
+    font-size: 25px;
+}
+/* ---------- The and--------------- */
